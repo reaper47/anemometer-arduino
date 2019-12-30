@@ -4,10 +4,10 @@
 
 The goals of this project are to:
 
-1. Display live wind speed data onto a SPI screen
+1. Display live wind speed data onto an SPI screen
 1. Send the data from the transmitter Arduino to the receiver Arduino
 
-[Short overview video](https://drive.google.com/open?id=1yNKfoHhbNAwHX3za7skcFMAHot8nph72)
+[Short video overview](https://drive.google.com/open?id=1yNKfoHhbNAwHX3za7skcFMAHot8nph72)
 
 ## Required Libraries
 
@@ -29,7 +29,7 @@ The goals of this project are to:
 
 - The voltage wire is attached to the wires of a 12V supply.
 - The data wire is inserted into the *Pin 12* of the Arduino with the transmitter module.
-- The ground wire is inserted into the ground pin of the same Arduino.
+- The ground wire is inserted into the *Ground Pin* of the same Arduino.
 
 ### FS1000A
 
