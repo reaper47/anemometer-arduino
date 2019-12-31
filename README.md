@@ -5,7 +5,7 @@
 The goals of this project are to:
 
 1. Display live wind speed data onto an SPI screen
-1. Send the data from the transmitter Arduino to the receiver Arduino
+1. Set up a server to give access to the wind speed variable.
 
 [Short video overview](https://drive.google.com/open?id=1yNKfoHhbNAwHX3za7skcFMAHot8nph72)
 
@@ -13,15 +13,18 @@ The goals of this project are to:
 
 - Adafruit GFX Library by Adafruit
 - Adafruit ST7735 and ST7789 Library by Adafruit
-- VirtualWire by Mike McCauley
+- ESP Async WebServer by Hristo Gochkov
+- AsyncTCP by Hristo Gochkov
+- ESPAsyncTCP by Hristo Gochkov
 
 ## Material
 
 1. [Anemometer](https://wiki.dfrobot.com/Wind_Speed_Sensor_Voltage_Type_0-5V__SKU_SEN0170)
-1. [FS1000A RF Transmitter and Receiver Modules](https://www.aliexpress.com/item/32896035786.html?spm=2114.search0302.3.23.7165161bYrCHQ0&ws_ab_test=searchweb0_0,searchweb201602_0,searchweb201603_0,ppcSwitch_0&algo_pvid=722cfee0-dc60-48e2-b453-23c4ac2dda30&algo_expid=722cfee0-dc60-48e2-b453-23c4ac2dda30-3)
+1. [WeMos MCU](https://www.banggood.com/Geekcreit-D1-R2-V2_1_0-WiFi-Uno-Module-Based-ESP8266-Module-For-Arduino-Nodemcu-Compatible-p-1085610.html?rmmds=search&cur_warehouse=CN) or an Arduino with a [ESP8266](https://www.banggood.com/ESP-01S-ESP8266-Serial-to-WiFi-Module-Wireless-Transparent-Transmission-Industrial-Grade-Smart-Home-Internet-of-Things-IOT-p-1471346.html?rmmds=search&cur_warehouse=CN) module.
 1. [ST7735 Display](https://www.banggood.com/Geekcreit-0_96-Inch-7Pin-HD-Color-IPS-Screen-TFT-LCD-Display-SPI-ST7735-Module-p-1370911.html?rmmds=search&cur_warehouse=CN) (or any other screen of your choice)
 1. [TTP226 (8  touch buttons)](https://www.banggood.com/TTP226-8-Channel-Digital-Capacitive-Switch-Touch-Sensor-Module-p-1557893.html?rmmds=search&cur_warehouse=CN) or [TTP224 (4 touch buttons)](https://www.banggood.com/TTP224-4CH-Channel-Capacitive-Touch-Switch-Digital-Touch-Sensor-Module-p-1540570.html?rmmds=search&cur_warehouse=CN)
 1. Two Arduinos
+1. [One LED](https://www.banggood.com/50Pcs-5mm-Round-Red-Green-Blue-Yellow-White-Color-Diffused-LED-Light-Diode-Lamp-p-1077190.html?rmmds=search&ID=228&cur_warehouse=CN)
 
 ## Wiring
 
