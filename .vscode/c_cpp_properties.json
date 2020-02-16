@@ -4,6 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
+                "C:\\Users\\macpo\\Documents\\Arduino\\libraries\\**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
@@ -14,3 +15,4 @@
     ],
     "version": 4
 }
+
